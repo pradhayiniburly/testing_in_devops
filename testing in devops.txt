@@ -1,0 +1,10 @@
+To start Jenkins: in cmd promt (port number 8080)
+java -jar jenkins.war
+
+To start Jenkins by changing the port number: in cmd promt
+java -jar jenkins.war -httpPort 2365
+//2365 will now be the new port number
+
+jenkins config:
+login>> manage jenkins>> global tool config>> add teh tools required
+
